@@ -1,0 +1,30 @@
+body {
+    background-color: gray;
+}
+
+body h1 {
+    text-align: center;
+    margin: 0px;
+}
+
+.info {
+    align-items: center;
+    text-align: center;
+}
+
+.contactme {
+    background-color: azure;
+    padding-bottom: 5vh;
+    margin: 0;
+    text-align: end;
+}
+
+.footer {
+    text-align: center;
+    /* align-items: center; */
+    height: 4vh;
+    background-color: black;
+    color: white;
+    font-family: "lato", sans-serif;
+    padding: 30px 500px;
+}

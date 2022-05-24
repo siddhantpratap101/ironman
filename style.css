@@ -1,0 +1,363 @@
+:root {
+    --main-bg-color: #36e490;
+    --pirmary-color: #edf2fc;
+    --secondary-color: #212121;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/*size of complete web page  */
+
+body {
+    height: 200vh;
+}
+
+
+/* header picture */
+
+.bgpic {
+    height: 43vh;
+    background-image: url("picture/ironman1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+/* welcome top stark industries */
+
+.p1 {
+    color: rgb(218, 173, 25);
+    text-align: center;
+    font-size: 52px;
+}
+
+
+/* navigation bar size */
+
+.topnav {
+    display: flex;
+    justify-content: space-around;
+    overflow: hidden;
+    padding: 44px 13px;
+    font-family: 'Rubik Wet Paint', cursive;
+}
+
+
+/* all items in navigation bar  */
+
+.topnav a {
+    box-shadow: 0 4px 10px 0 white;
+    border-radius: 5px;
+    text-align: center;
+    padding: 1px 10px;
+    text-decoration: skyblue;
+    font-size: 28px;
+    font-family: 'Rubik Wet Paint', cursive;
+}
+
+
+/* TONY STARK */
+
+h1 {
+    color: white;
+    padding-right: 20vw;
+    text-align: right;
+    padding-top: 2vh;
+}
+
+.quote {
+    background-color: rgba(170, 60, 60, 0.507);
+    display: inline-block;
+    box-shadow: 5px 8px 35px rgb(255, 255, 255);
+    color: white;
+    font-size: 20px;
+    padding: 0px 20px;
+}
+
+
+/* IRON MAN  */
+
+h2 {
+    font-size: 43px;
+}
+
+
+/* body page  */
+
+.main {
+    height: 30vh;
+    width: 65vw;
+    float: right;
+    margin-top: 20vh;
+    font-size: large;
+}
+
+.aside {
+    height: 56vh;
+    width: 32vw;
+    background-image: url("picture/ironman2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 14px;
+}
+
+.btn {
+    border-radius: 7px;
+    background-color: #fd5d5d;
+    color: white;
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    box-shadow: 0 8px 0 #cf2b2b, inset -5px 0 10px rgba(255, 255, 255, 0.2);
+    transition: all 0.3s;
+    display: inline-block;
+    /* cursor: pointer; */
+}
+
+#darktheme {
+    width: 30px;
+    cursor: pointer;
+}
+
+.para3 {
+    /* background-color: #36e490; */
+    height: 85vh;
+}
+
+
+/* body part of picture area  */
+
+.container1 {
+    display: flex;
+    justify-content: space-around;
+    /* background-color: #0000006c; */
+    height: 70vh;
+}
+
+.cont1 {
+    display: flex;
+    height: 68vh;
+    width: 19vw;
+    margin: 5px;
+    box-shadow: 0 10px 20px rgb(0, 0, 0, 0.8);
+    background-image: url('picture/ironmanbox1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.cont2 {
+    display: flex;
+    height: 68vh;
+    width: 19vw;
+    margin: 5px;
+    box-shadow: 0 10px 20px rgb(0, 0, 0, 0.4);
+    background-image: url('picture/ironmanbox2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.cont3 {
+    height: 68vh;
+    width: 19vw;
+    margin: 5px;
+    box-shadow: 0 10px 20px rgb(0, 0, 0, 0.8);
+    background-image: url('picture/ironmanbox3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.cont4 {
+    height: 68vh;
+    width: 19vw;
+    margin: 5px;
+    box-shadow: 0 10px 20px rgb(0, 0, 0, 0.4);
+    background-image: url('picture/ironmanbox4.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.cont5 {
+    height: 68vh;
+    width: 19vw;
+    margin: 5px;
+    box-shadow: 0 10px 20px rgb(0, 0, 0, 0.8);
+    background-image: url('picture/ironmanbox5.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+/* my social media icons link  */
+
+.container2 {
+    display: flex;
+    float: right;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    background-color: #c4a44b5e;
+    height: 15vh;
+    text-decoration: none;
+}
+
+.mypicture {
+    height: 10vh;
+    width: 4vw;
+    /* background-color: black; */
+    background-image: url('icons/like\ logo.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: pointer;
+}
+
+.mylinkedin {
+    height: 10vh;
+    width: 4vw;
+    /* background-color: black; */
+    background-image: url('icons/linkedin\ logo.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: pointer;
+}
+
+.mygmail {
+    height: 10vh;
+    width: 4vw;
+    /* background-color: black; */
+    background-image: url('icons/google\ gmail\ logo.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: pointer;
+}
+
+.myinstagram {
+    height: 10vh;
+    width: 4vw;
+    /* background-color: black; */
+    background-image: url('icons/instagram\ logo.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: pointer;
+}
+
+.mygithub {
+    height: 10vh;
+    width: 4vw;
+    /* background-color: black; */
+    background-image: url('icons/github\ logo.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: pointer;
+}
+
+
+/* marvel social media icons link  */
+
+.container3 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    height: 15vh;
+    background-color: #42949788;
+}
+
+.marvelfacebook {
+    height: 10vh;
+    width: 4vw;
+    /* background-color: black; */
+    background-image: url('icons/facebook\ logo.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: pointer;
+}
+
+.marveltwitter {
+    height: 10vh;
+    width: 4vw;
+    /* background-color: black; */
+    background-image: url('icons/twitter\ logo.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: pointer;
+}
+
+.marvelinstagram {
+    height: 10vh;
+    width: 4vw;
+    /* background-color: black; */
+    background-image: url('icons/instagram\ logo.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: pointer;
+}
+
+.marvelt {
+    height: 10vh;
+    width: 4vw;
+    /* background-color: black; */
+    background-image: url('icons/t\ logo.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: pointer;
+}
+
+.marvelyoutube {
+    height: 10vh;
+    width: 4vw;
+    /* background-color: black; */
+    background-image: url('icons/youtube\ logo.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: pointer;
+}
+
+.marvelsnapchat {
+    height: 10vh;
+    width: 4vw;
+    /* background-color: black; */
+    background-image: url('icons/snapchat\ logo.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: pointer;
+}
+
+.marvelpintrest {
+    height: 10vh;
+    width: 4vw;
+    /* background-color: black; */
+    background-image: url('icons/pintrest\ logo.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: pointer;
+}
+
+
+/* marvel big logo  */
+
+.mbl {
+    width: 100vw;
+    height: 30vh;
+    color: red;
+    display: inline-block;
+    /* align-items: center; */
+    text-align: center;
+    font-size: 180px;
+}
+
+
+/* copyright area  */
+
+.footer {
+    text-align: center;
+    /* align-items: center; */
+    height: 4vh;
+    background-color: black;
+    color: white;
+    font-family: "lato", sans-serif;
+    padding: 30px 500px;
+}
